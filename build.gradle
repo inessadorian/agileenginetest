@@ -2,8 +2,15 @@ group 'com.agileengine'
 version '0.0.1'
 
 apply plugin: 'java'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
+
+mainClassName = "com/agileengine/JsoupFindByIdSnippet"
+
+jar {
+    baseName = "test"
+}
 
 repositories {
     mavenCentral()

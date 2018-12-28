@@ -20,7 +20,7 @@ public class JsoupCssSelectSnippet {
 
     private static String CHARSET_NAME = "utf8";
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
 
         // Jsoup requires an absolute file path to resolve possible relative paths in HTML,
         // so providing InputStream through classpath resources is not a case
